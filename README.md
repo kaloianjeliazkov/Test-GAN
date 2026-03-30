@@ -4,10 +4,12 @@
 
     The test suite covers:
     
-    Successful user registration /
-    Successful user login /
+    Successful user registration 
+
+    Successful user login 
+
     Bonus history verification after registration
-    
+
     The tests are implemented in JavaScript using the Playwright testing framework.
 
     Playwright            -  End-to-end browser automation /
