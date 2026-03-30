@@ -11,17 +11,16 @@
     The tests are implemented in JavaScript using the Playwright testing framework.
 
     Playwright            -  End-to-end browser automation 
-    JavaScript (Node.js)  -  Test scripting                
+    JavaScript (Node.js)  -  Test scripting
     Chromium Browser      -  Test execution
 
 2. Setup Instructions
 
     Make sure the following are installed:
-
         Node.js (v16 or higher)
         npm (comes with Node.js)
         Git
-
+        
     Installation Steps
         Clone the repository: git clone https://github.com/kaloianjeliazkov/Test-GAN.git
 
