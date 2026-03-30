@@ -25,18 +25,14 @@
     &ensp;&ensp;Install dependencies:
         &ensp;&ensp;&ensp;npm install / npx playwright install
 
-4. Running the Tests
+4. Running the Tests:
     &ensp;&ensp;npx playwright test / npx playwright test --headed / npx playwright test --debug
 
-5. Design patterns used 
-    &ensp;&ensp;The test file extracts repeated user actions into reusable functions such as loginUser()
+5. Design patterns used: The test file extracts repeated user actions into reusable functions such as loginUser()
 
-    &ensp;&ensp;Playwright lifecycle hooks used in order to manage setup and cleanup. The browser is launched once in beforeAll, closed in afterAll, and a fresh browser context and page &ensp;&ensp;are created for each test in beforeEach and cleaned up in afterEach
+    &ensp;&ensp;Playwright lifecycle hooks used in order to manage setup and cleanup. The browser is launched once in beforeAll, closed in afterAll, and a fresh browser context and page are created for each test in beforeEach and cleaned up in afterEach
     
-    &ensp;&ensp;This pattern improves reliability by:
-        &ensp;&ensp;&ensp;Isolating test execution, 
-        &ensp;&ensp;&ensp;Making failures easier to debug, 
-        &ensp;&ensp;&ensp;Ensuring every test starts from a clean environment
+    &ensp;&ensp;This pattern improves reliability by: Isolating test execution, Making failures easier to debug, Ensuring every test starts from a clean environment
 
     &ensp;&ensp;The tests generate random usernames and email addresses before test execution to avoid collisions with existing accounts. 
     &ensp;&ensp;Selectors are stored in variables before interaction for better readability and to make them easier to maintain.
