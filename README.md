@@ -2,26 +2,22 @@
 
     &ensp;&ensp;This repository contains automated end-to-end tests written using Playwright for testing user registration, login, and bonus history functionality on the PlayJack website.
 
-    &ensp;&ensp;&ensp;The test suite covers:
+    &ensp;&ensp;&ensp;&ensp;The test suite covers:
     
-    &ensp;&ensp;&ensp;Successful user registration 
+    &ensp;&ensp;&ensp;&ensp;Successful user registration 
 
-    &ensp;&ensp;&ensp;Successful user login 
+    &ensp;&ensp;&ensp;&ensp;Successful user login 
 
     &ensp;&ensp;Bonus history verification after registration
 
     &ensp;&ensp;The tests are implemented in JavaScript using the Playwright testing framework.
 
-    &ensp;&ensp;Playwright            -  End-to-end browser automation /
-    &ensp;&ensp;JavaScript (Node.js)  -  Test scripting /
-    &ensp;&ensp;Chromium Browser      -  Test execution
+    &ensp;&ensp;Playwright            -  End-to-end browser automation / JavaScript (Node.js)  -  Test scripting / Chromium Browser      -  Test execution
 
 2. Setup Instructions
 
     &ensp;&ensp;Make sure the following are installed:
-        &ensp;&ensp;&ensp;Node.js (v16 or higher) /
-        &ensp;&ensp;&ensp;npm (comes with Node.js) /
-        &ensp;&ensp;&ensp;Git
+        &ensp;&ensp;&ensp;Node.js (v16 or higher) / npm (comes with Node.js) / Git
 
     &ensp;&ensp;Installation Steps
         &ensp;&ensp;&ensp;Clone the repository: git clone https://github.com/kaloianjeliazkov/Test-GAN.git
